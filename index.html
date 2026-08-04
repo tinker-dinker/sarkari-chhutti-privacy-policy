@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Sarkari Chhutti</title>
+    <style>
+        :root {
+            --accent-color: #e67e22;
+            --accent-light: #fff5eb;
+            --text-main: #2c3e50;
+            --text-muted: #627d98;
+            --bg-main: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --accent-color: #ff9933;
+                --accent-light: #2a1f17;
+                --text-main: #f1f5f9;
+                --text-muted: #94a3b8;
+                --bg-main: #0f172a;
+                --card-bg: #1e293b;
+                --border-color: #334155;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-main);
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .badge-container {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background-color: var(--accent-light);
+            color: var(--accent-color);
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border: 1px solid var(--accent-color);
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .meta-date {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            color: var(--accent-color);
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-main);
+            opacity: 0.9;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background-color: var(--accent-light);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.25rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        code {
+            background: var(--bg-main);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.9em;
+            border: 1px solid var(--border-color);
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="badge-container">
+            <span class="badge">100% Offline-First</span>
+            <span class="badge">Zero Analytics</span>
+            <span class="badge">No Ads</span>
+        </div>
+        <h1>Privacy Policy for Sarkari Chhutti</h1>
+        <p class="meta-date"><strong>Effective Date:</strong> August 4, 2026 | <strong>Last Updated:</strong> August 4, 2026</p>
+    </header>
+
+    <p><strong>Sarkari Chhutti</strong> ("the App") is an offline-first utility application designed for Indian Central Government employees. We are strictly committed to user privacy. This Privacy Policy outlines how your information is handled by the application.</p>
+
+    <div class="highlight-box">
+        <p><strong>Summary:</strong> Sarkari Chhutti does not collect, store, transmit, or share any personal data. Everything you input stays strictly on your local device.</p>
+    </div>
+
+    <h2>1. 100% Offline &amp; Local Storage</h2>
+    <p>The App operates entirely without cloud infrastructure or external server connections:</p>
+    <ul>
+        <li>All personal records—including Date of Birth (DOB), Date of Joining (DOJ), custom leave balances, and Leave Travel Concession (LTC) selections—are stored <strong>locally on your device</strong> inside an application sandbox (via <code>SQLite</code> and <code>SharedPreferences</code>).</li>
+        <li>We do <strong>not</strong> upload, back up, sync, or transmit your personal data to any external server or third-party service.</li>
+    </ul>
+
+    <h2>2. Information Collection and Sharing</h2>
+    <p>Because the App operates offline, <strong>we collect zero personal data, usage metrics, or diagnostic analytics.</strong></p>
+    <ul>
+        <li><strong>No Account Required:</strong> You do not need to register, log in, or provide an email address to access any app feature.</li>
+        <li><strong>No Analytics SDKs:</strong> The App contains no tracking frameworks (such as Firebase, Google Analytics, or Flurry) or advertising networks.</li>
+    </ul>
+
+    <h2>3. System Permissions</h2>
+    <p>The App requests minimal system permissions strictly necessary to execute local utility tasks:</p>
+    <ul>
+        <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Required only if you enable LTC lapse alerts or service milestone reminders. All notification schedules are processed locally using Android's native <code>WorkManager</code>. No internet connection is used.</li>
+    </ul>
+
+    <h2>4. Children’s Privacy</h2>
+    <p>The App does not knowingly solicit or collect personal information from children under the age of 13, as no data collection occurs within the application.</p>
+
+    <h2>5. Updates to This Policy</h2>
+    <p>If updates are made to this Privacy Policy, the revised version will be published here with an updated "Last Updated" date at the top of the page.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have questions regarding this Privacy Policy, you can reach out via email:</p>
+    <p><strong>Support Email:</strong> <a href="mailto:zeromiles100@gmail.com">zeromiles100@gmail.com</a></p>
+
+    <footer>
+        &copy; 2026 Sarkari Chhutti. Built for Central Government Employees.
+    </footer>
+</div>
+
+</body>
+</html>
