@@ -164,49 +164,57 @@
 <div class="container">
     <header>
         <div class="badge-container">
-            <span class="badge">100% Offline-First</span>
-            <span class="badge">Zero Analytics</span>
+            <span class="badge">Offline-First</span>
+            <span class="badge">Zero User Data Collection</span>
+            <span class="badge">No Tracking</span>
             <span class="badge">No Ads</span>
         </div>
         <h1>Privacy Policy for Sarkari Chhutti</h1>
-        <p class="meta-date"><strong>Effective Date:</strong> August 4, 2026 | <strong>Last Updated:</strong> August 4, 2026</p>
+        <p class="meta-date"><strong>Effective Date:</strong> August 5, 2026 | <strong>Last Updated:</strong> August 5, 2026</p>
     </header>
 
-    <p><strong>Sarkari Chhutti</strong> ("the App") is an offline-first utility application designed for Indian Central Government employees. We are strictly committed to user privacy. This Privacy Policy outlines how your information is handled by the application.</p>
+    <p><strong>Sarkari Chhutti</strong> ("the App") is a privacy-focused utility tool designed for Indian Central Government employees. We are strictly committed to user privacy. This Privacy Policy outlines how user information and device network access are handled by the application.</p>
 
     <div class="highlight-box">
-        <p><strong>Summary:</strong> Sarkari Chhutti does not collect, store, transmit, or share any personal data. Everything you input stays strictly on your local device.</p>
+        <p><strong>Summary:</strong> Sarkari Chhutti does not collect, track, or share any personal data. All user inputs (leave logs, retirement details, LTC choices) stay strictly on your device. Network access is used solely to download public annual holiday list updates.</p>
     </div>
 
-    <h2>1. 100% Offline &amp; Local Storage</h2>
-    <p>The App operates entirely without cloud infrastructure or external server connections:</p>
+    <h2>1. Local Storage &amp; Privacy</h2>
+    <p>The App operates on a local-first architecture:</p>
     <ul>
-        <li>All personal records—including Date of Birth (DOB), Date of Joining (DOJ), custom leave balances, and Leave Travel Concession (LTC) selections—are stored <strong>locally on your device</strong> inside an application sandbox (via <code>SQLite</code> and <code>SharedPreferences</code>).</li>
-        <li>We do <strong>not</strong> upload, back up, sync, or transmit your personal data to any external server or third-party service.</li>
+        <li>All personal records—including Date of Birth (DOB), Date of Joining (DOJ), custom approved leave entries, and Leave Travel Concession (LTC) selections—are stored <strong>locally on your device</strong> inside an application sandbox (via <code>SQLite</code> and <code>SharedPreferences</code>).</li>
+        <li>We do <strong>not</strong> upload, back up, sync, or transmit your personal data, profile settings, or leave history to external servers.</li>
     </ul>
 
-    <h2>2. Information Collection and Sharing</h2>
-    <p>Because the App operates offline, <strong>we collect zero personal data, usage metrics, or diagnostic analytics.</strong></p>
+    <h2>2. Network Access &amp; Holiday List Updates</h2>
+    <p>The App requests standard internet permissions (<code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>) for a single, limited utility purpose:</p>
     <ul>
-        <li><strong>No Account Required:</strong> You do not need to register, log in, or provide an email address to access any app feature.</li>
-        <li><strong>No Analytics SDKs:</strong> The App contains no tracking frameworks (such as Firebase, Google Analytics, or Flurry) or advertising networks.</li>
+        <li><strong>Public Data Updates:</strong> Network access is used solely to fetch updated annual gazetted and restricted holiday JSON files from a public server repository.</li>
+        <li><strong>Zero Data Transmission:</strong> During network requests, no user identifiers, personal profile data, device information, or usage analytics are transmitted or recorded.</li>
     </ul>
 
-    <h2>3. System Permissions</h2>
-    <p>The App requests minimal system permissions strictly necessary to execute local utility tasks:</p>
+    <h2>3. Information Collection &amp; Analytics</h2>
+    <p>Because the App does not collect personal information, <strong>we gather zero usage analytics or diagnostic identifiers.</strong></p>
     <ul>
-        <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Required only if you enable LTC lapse alerts or service milestone reminders. All notification schedules are processed locally using Android's native <code>WorkManager</code>. No internet connection is used.</li>
+        <li><strong>No User Registration:</strong> You do not need to register, log in, or provide email addresses or phone numbers to use any feature.</li>
+        <li><strong>No Analytics SDKs:</strong> The App contains no tracking frameworks (such as Firebase Analytics, Google Analytics, or Flurry) and no advertising networks.</li>
     </ul>
 
-    <h2>4. Children’s Privacy</h2>
-    <p>The App does not knowingly solicit or collect personal information from children under the age of 13, as no data collection occurs within the application.</p>
+    <h2>4. System Permissions</h2>
+    <p>The App requests minimal permissions strictly necessary to deliver local utilities:</p>
+    <ul>
+        <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Used only to trigger local reminders for upcoming LTC lapse deadlines and career milestone anniversaries. All scheduling runs locally via Android's native <code>WorkManager</code>.</li>
+    </ul>
 
-    <h2>5. Updates to This Policy</h2>
-    <p>If updates are made to this Privacy Policy, the revised version will be published here with an updated "Last Updated" date at the top of the page.</p>
+    <h2>5. Children’s Privacy</h2>
+    <p>The App does not collect personal information from anyone, including children under the age of 13.</p>
 
-    <h2>6. Contact Us</h2>
-    <p>If you have questions regarding this Privacy Policy, you can reach out via email:</p>
-    <p><strong>Support Email:</strong> <a href="mailto:zeromiles100@gmail.com">zeromiles100@gmail.com</a></p>
+    <h2>6. Changes to This Policy</h2>
+    <p>Any updates made to this Privacy Policy will be published directly to this page with an updated revision date.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions regarding this Privacy Policy, please contact us via email:</p>
+    <p><strong>Support Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
 
     <footer>
         &copy; 2026 Sarkari Chhutti. Built for Central Government Employees.
